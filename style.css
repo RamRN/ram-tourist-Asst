@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    font-size:larger;
+    margin-left: 490px;
+}
+nav img
+{
+    margin-left: 420px;
+}
+section
+{
+    margin-left: 400px;
+}
+.submain p a
+{
+    color: orangered;
+    text-decoration: none;
+    font-size: 15px; 
+    margin-left: 350px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.subsec-1 h2
+{
+    margin-left: 70px;
+}
+.subsec-1 span
+{
+    margin-left: 120px;
+    
+}
+.subsec-1 a,.subsec-2 a,.subsec-3 a,.subsec-4 a,.subsec-5 a,.subsec-6 a,.subsec-7 a,.subsec-8 a
+{ 
+    text-decoration:underline;
+    font-weight: bold;
+    color: rgb(77, 0, 110);
+}
+.subsec-1 img
+{
+    cursor: zoom-in;
+
+}
+.subsec-1,.subsec-2,.subsec-3,.subsec-4,.subsec-5,.subsec-6,.subsec-7,.subsec-8,.subsec-9,.subsec-10
+{
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.socialmedia
+{
+    font-size: 30px;
+}
+.goto
+{
+    margin-top:130px;
+    margin-left:380px;
+}
+.goto a
+{
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    list-style: none;
+    color: rgb(148, 148, 148);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:0;
+}
+.foot
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bcrop
+{
+    padding: 20px;
+}
+.ftr{
+    display: flex;
+    margin-left: 150px;
+    font-size: 20px;
+    margin-top: 10px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.sociallinks
+{
+    font-size: 35px;
+    width: 19%;
+    padding: 10px;
+}
+.subsec-9 a:hover
+{
+    text-decoration:none;
+    color: black;
+    
+}
+.ftr a:hover
+{
+    text-decoration: none;
+    color:white;
+}
